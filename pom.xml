@@ -26,7 +26,7 @@
         <docker.image.prefix>ophthalmology</docker.image.prefix>
 
         <!-- Compatible Spring Cloud release train for Spring Boot 3.5.x (2025) -->
-        <spring-cloud.version>2024.0.5</spring-cloud.version>
+        <spring-cloud.version>2025.1.0</spring-cloud.version>
     </properties>
 
     <!-- Spring Cloud BOM (version management only - no actual dependencies pulled here) -->
@@ -45,9 +45,9 @@
     <!-- Child modules -->
     <modules>
         <module>service-registry</module>
-        <module>api-gateway</module>
-        <module>authentication-service</module>
-        <module>shared-libraries/common-dto</module>
+<!--        <module>api-gateway</module>-->
+<!--        <module>authentication-service</module>-->
+<!--        <module>shared-libraries/common-dto</module>-->
     </modules>
 
     <build>
